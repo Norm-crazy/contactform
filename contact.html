@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/contact.css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic|Source+Code+Pro:400,700" rel="stylesheet" type="text/css">
+  <title>Norm's Portfolio</title>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+  <!--navbar-->
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="https://github.com/Snakevs2" id="brand">Snakevs2</a>
+      </div>
+      <div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li><a id="text" href="#about">About</a></li>
+            <li><a id="text" href="#exp">Experience</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#pro">All Projects</a></li>
+              </ul>
+            </li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="container" id="intro">
+    <img id="self-img" src="profile.jpg">
+    <h1 class="txt-head">Hi, my name is Norman. I am a Junior Front End Developer. </h1>
+    <br>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-6">
+        <div id="map">
+          <h3>I am located in Austin, Tx.</h3>
+          <p>Due to the API limit cost, I decided to use an iframe embed map.</p>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d311718.7708849835!2d-97.85830644379429!3d30.321403695686744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b599a0cc032f%3A0x5d9b464bd469d57a!2sAustin%2C+TX!5e0!3m2!1sen!2sus!4v1533475264570"
+            width="500" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6" style="color:white;">
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+  <!-- Contact Forum-->
+  <div class="contact-form">
+    <div class="container" id="con">
+      <form class="contact" id=contactForm>
+        <h3>Contact form</h3>
+        <div class="alert">Your message has been sent</div>
+        <div class="form-group" id="nam-em">
+          <label>Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group" id="nam-em">
+          <label>Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label>Message:</label>
+          <textarea id="message" class="form-control" rows="8" cols="80"></textarea>
+        </div>
+        <div class="sub-btn">
+          <button class="btn-hover" type="submit" name="button">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <!--End of contact form -->
+
+  <div class="footer">
+
+    <h3>Contact Info</h3>
+    <ul>
+      <li>You can reach me by email here <a class="fa fa-envelope-o" href="mailto:normanhiggs@yahoo.com" aria-hidden="true" id="email-img"></a>. Email is normanhiggs@yahoo.com</li>
+      <li>Here is my GitHub page <a href="https://github.com/Snakevs2"><img id="gitImg" src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png"></a></li>
+      <li>You can view my Linkedin page here <a href="https://www.linkedin.com/in/norman-higgs-28845896"><img id="link-img" src="linkedin.png"></a></li>
+    </ul>
+  </div>
+  </div>
+  </div>
+  </div>
+  <script src="https://www.gstatic.com/firebasejs/5.6.0/firebase.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/react/15.6.1/react.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/react/15.6.1/react-dom.min.js'></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>

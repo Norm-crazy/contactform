@@ -1,0 +1,68 @@
+* {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+/* Navbar */
+#brand {
+  position: absolute;
+  left: 50%;
+  margin-left: -50px !important;
+  /* 50% of your logo width */
+  display: block;
+}
+
+/* Header */
+#intro {
+  width: auto;
+  background: #000000;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #434343, #000000);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #434343, #000000);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.txt-head {
+  text-align: center;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#self-img {
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  margin-top: 85px;
+  width: 250px;
+}
+
+/* Footer */
+.footer {
+  background: #000000;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #000000, #434343);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #000000, #434343);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+
+#contact {
+  color: white;
+}
+
+#email-img {
+  font-size: 23px;
+  color: white;
+}
+
+#gitImg {
+  border-radius: 50%;
+  width: 30px;
+}
+
+#link-img {
+  width: 25px;
+}
